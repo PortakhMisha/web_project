@@ -1,0 +1,149 @@
+/* Загальні стилі */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #fff;
+    background-image: url('C:/Users/Mykhailo/Desktop/lusui/SpjBJrHdhDMxRjB8EFP1QdizL3bSvMH2.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0px;
+}
+
+/* Стилі для заголовку і навігації */
+.header {
+
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.938);
+    padding: 13px;
+    display: flex;
+    justify-content: left; /* Вирівнювання контенту у центрі */
+    align-items: center;
+    z-index: 1000;
+}
+
+/* Стилі для логотипу */
+.logo {
+    float: left ;
+    margin: 0;
+    padding: 10px 20px;
+    font-size: 50px;
+    background-color: #ffffff00;
+    color: #ff0000;
+    border-radius: 20px;
+}
+
+/* Стилі для навігаційних посилань */
+.nav-links {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+}
+
+.nav-links li {
+    margin-right: 20px;
+}
+
+.nav-links li a {
+    color: #ff0000;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 20px;
+}
+
+.nav-links li a:hover {
+    background-color: #111;
+}
+
+/* Стилі для кнопок "Реєстрація" і "Вхід" */
+.register-button,
+.login-button {
+    padding: 10px 20px;
+    background-color: #b51e25;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+
+.register-button:hover,
+.login-button:hover {
+    background-color: #991b1f;
+}
+
+/* Стилі для розділу фільмів */
+.home-section {
+    padding: 100px 20px 20px;
+}
+
+.movie-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.movie {
+    width: 100%;
+    max-width: 300px;
+    padding: 20px;
+    background-color: #b51e25;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+
+.movie:hover {
+    transform: translateY(-5px);
+}
+
+.movie img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.movie h3 {
+    margin-top: 10px;
+    font-size: 1.2em;
+    color: #fff;
+}
+
+.movie p {
+    color: #fff;
+}
+
+.order-button {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 20px;
+    background-color: #000;
+    color: #fff;
+    text-decoration: none;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.order-button:hover {
+    background-color: #111;
+}
+
+.footer {
+    background-color: rgba(0, 0, 0, 0.7);
+    text-align: center;
+    padding: 10px 0;
+    color: #fff;
+}
