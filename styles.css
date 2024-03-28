@@ -4,7 +4,7 @@ body {
     margin: 0;
     padding: 0;
     color: #fff;
-    background-image: url('C:/Users/Mykhailo/Desktop/lusui/SpjBJrHdhDMxRjB8EFP1QdizL3bSvMH2.jpg');
+    background-image: url(images/back.jpg);
     background-size: cover;
     background-position: center;
 }
